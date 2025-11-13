@@ -1,6 +1,27 @@
-:root{
-    --background-color: #FFF5F0;
-    --main-text-color: #333;
-    --header-color: #1a1a1a;
-    --icon-color: #262626
+@import './normalize.css';
+@import './variables.css';
+@font-face {
+    font-family: Outfit;
+    src: url(/src/assets/fonts/SourceSans3-Bold.woff2) format(woff);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Outfit;
+    src: url(/src/assets/fonts/SourceSans3-Regular.woff2) format(woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Outfit;
+    src: url(/src/assets/fonts/SourceSans3-SemiBold.woff2) format(woff);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(/src/assets/fonts/SourceSans3-Regular.woff2) format(woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(/src/assets/fonts/SourceSans3-SemiBold.woff2) format(woff);
+    font-weight: 600;
 }
